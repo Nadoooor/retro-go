@@ -35,9 +35,9 @@
 #elif defined(RG_TARGET_REDROID_GO)
 #include "targets/redroid-go/config.h"
 #else
-#warning "No target defined. Defaulting to ODROID-GO."
-#include "targets/odroid-go/config.h"
-#define RG_TARGET_ODROID_GO
+#warning "No target defined. Defaulting to Retro-SnakeBoy."
+#include "targets/retro-SnakeBoy/config.h"
+#define RG_TARGET_RETRO_SNAKEBOY
 #endif
 
 #ifndef RG_PROJECT_NAME
